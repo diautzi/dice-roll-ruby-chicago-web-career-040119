@@ -4,11 +4,14 @@
 
 # 
 
-# def roll
-#   dice = [1,2,3,4,5,6]
-#   return dice.sample
-# end
+# return random using a RANGE
 
-def roll
-  return rand(1..6)
+  def roll
+    return rand(1..6)
+  end
+
+# return random picking out a random element from ARRAY
+def roll 
+  array = [1,2,3,4,5,6]
+  return array.sample
 end
